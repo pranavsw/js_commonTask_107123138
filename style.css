@@ -1,0 +1,46 @@
+.game-container {
+    width: 604px;
+    height: 605px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: aqua;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+.game-info {
+    margin-top: 20px;
+}
+
+#turn-info {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#game-outcome {
+    font-size: 48px;
+    color: #343434;
+}
